@@ -6,7 +6,9 @@ body {
 }
 
 .search-form {
-    position: relative;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #7fa7c0;
@@ -53,13 +55,6 @@ body {
             0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 }
-
-.gallery {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.photo-card {}
 
 .info {}
 
