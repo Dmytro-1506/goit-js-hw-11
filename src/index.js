@@ -4,7 +4,7 @@ import MyNotifications from "./js_files/notifications";
 
 import NewsApiServer from "./js_files/newsApiServer";
 
-const myNotifications = new MyNotifications;
+const myNotifications = new MyNotifications();
 const newApiServer = new NewsApiServer();
 
 const refs = {

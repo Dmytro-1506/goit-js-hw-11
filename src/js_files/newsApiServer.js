@@ -14,12 +14,4 @@ export default class NewsApiServer {
             console.log(error);
         }
     }
-
-    get request() {
-        return this.requestName;
-    }
-    
-    set request(newRequest) {
-        this.requestName = newRequest;
-    }
 }
